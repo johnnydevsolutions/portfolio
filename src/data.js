@@ -28,12 +28,12 @@ import Project5 from './assets/img/projects/guide.png';
 import Project6 from './assets/img/projects/vr.png';
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
+import SkillImg1 from './assets/img/skills/sqll.webp';
+import SkillImg2 from './assets/img/skills/dotnetcore.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/git.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
+import SkillImg6 from './assets/img/skills/docker.png';
 import SkillImg7 from './assets/img/skills/angular1.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
@@ -240,22 +240,22 @@ export const testimonials = [
     authorImg: TestiImage1,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Jane Smith',
+    authorPosition: 'Project Manager, Tech Corp',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      'The quality of work and attention to detail provided by Johnny is exceptional. They consistently deliver beyond our expectations.',
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'I have had the pleasure of working with Johnny on multiple projects. His technical expertise and professionalism are unmatched.',
+    authorName: 'Isabella Thompson',
+    authorPosition: 'Software Engineer, CodeTech',
   },
 ];
 

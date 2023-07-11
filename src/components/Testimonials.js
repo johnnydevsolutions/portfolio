@@ -13,8 +13,8 @@ const Testimonials = () => {
             What other people say
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Absolutely impressed with his professionalism and expertise. <br />
+            Exceptional service, always exceeding expectations.
           </p>
         </div>
         <TestiSlider />

@@ -10,7 +10,7 @@ import Skills from './components/Skills';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-//import Testimonials from './components/Testimonials';
+import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Services />
-  {/*    <Testimonials /> */}
+     <Testimonials />
       <Contact />
       <Footer />
       <BackTopBtn />

@@ -24,7 +24,7 @@ const TestiSlider = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}

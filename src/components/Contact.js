@@ -2,9 +2,27 @@ import React from 'react';
 
 // import contact data
 import { contact } from '../data';
+import emailjs from 'emailjs-com';
+
 
 
 const Contact = () => {
+  // função para lidar com o envio do formulário
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // envio do e-mail usando o EmailJS
+    emailjs
+      .sendForm('service_5d0pbp4', 'template_cqvij7q', e.target, 'imzIzAFAbL_JdyfLs')
+      .then((response) => {
+        console.log('E-mail enviado com sucesso!', response.text);
+      })
+      .catch((error) => {
+        console.error('Ocorreu um erro ao enviar o e-mail:', error);
+      });
+    // limpar os campos do formulário após o envio
+    e.target.reset();
+    };
+
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
@@ -41,17 +59,19 @@ const Contact = () => {
           </div>
           <form
             className='space-y-8 w-full max-w-[780px]'
+            onSubmit={handleSubmit}
           >
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' name="user_name" placeholder='Your name' />
+              <input className='input' type='email'name="user_email" placeholder='Your email' />
             </div>
             <input className='input' type='text' placeholder='Subject' />
             <textarea
               className='textarea'
               placeholder='Your message'
+              name="message"
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+            <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type='submit'>
               Send message
             </button>
           </form>
