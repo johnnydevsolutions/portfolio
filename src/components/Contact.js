@@ -1,27 +1,30 @@
-import React from 'react';
+import React, { useState }  from 'react';
 
 // import contact data
 import { contact } from '../data';
 import emailjs from 'emailjs-com';
-
+import { useForm } from 'react-hook-form';
+import Modal from 'react-modal';
 
 
 const Contact = () => {
-  // função para lidar com o envio do formulário
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // envio do e-mail usando o EmailJS
+  
+  const { register, handleSubmit, formState: { errors } } = useForm();
+  const [isSuccessMessageVisible, setIsSuccessMessageVisible] = useState(false);
+
+  const onSubmit = (data, e) => {
     emailjs
       .sendForm('service_5d0pbp4', 'template_cqvij7q', e.target, 'imzIzAFAbL_JdyfLs')
       .then((response) => {
+        setIsSuccessMessageVisible(true);
         console.log('E-mail enviado com sucesso!', response.text);
       })
       .catch((error) => {
         console.error('Ocorreu um erro ao enviar o e-mail:', error);
       });
-    // limpar os campos do formulário após o envio
     e.target.reset();
-    };
+  };
+
 
   return (
     <section className='section bg-primary' id='contact'>
@@ -31,16 +34,12 @@ const Contact = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-            Looking for a creative and knowledgeable Web developer? <br></br>  Search no further, because I am ready for the job. <br></br>
+            Looking for a creative and knowledgeable Web developer? <br /> Search no further, because I am ready for the job. <br />
             I will step in and make an immediate contribution to your project.
           </p>
         </div>
-        <div
-          className='flex flex-col lg:gap-x-8 lg:flex-row'
-        >
-          <div
-            className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'
-          >
+        <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
+          <div className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'>
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
               return (
@@ -57,28 +56,30 @@ const Contact = () => {
               );
             })}
           </div>
-          <form
-            className='space-y-8 w-full max-w-[780px]'
-            onSubmit={handleSubmit}
-          >
+          <form className='space-y-8 w-full max-w-[780px]' onSubmit={handleSubmit(onSubmit)}>
             <div className='flex gap-8'>
-              <input className='input' type='text' name="user_name" placeholder='Your name' />
-              <input className='input' type='email'name="user_email" placeholder='Your email' />
+              <input className='input' type='text' name="user_name" {...register('name', { required: true })} placeholder='Your name' />
+              {errors.name && <p className='error-message' style={{ color: 'rgb(200 27 61)' }}>Name is required</p>}
+              <input className='input' type='email' name="user_email" {...register('email', { required: true })} placeholder='Your email' />
+              {errors.email && <p className='error-message' style={{ color: 'rgb(200 27 61)' }}>Email is required</p>}
             </div>
-            <input className='input' type='text' placeholder='Subject' />
-            <textarea
-              className='textarea'
-              placeholder='Your message'
-              name="message"
-            ></textarea>
+            <input className='input' type='text' name="user_subject" {...register('subject', { required: true })} placeholder='Subject' />
+            {errors.subject && <p className='error-message' style={{ color: 'rgb(200 27 61)' }}>Subject is required</p>}
+            <textarea className='textarea' {...register('message', { required: true })} placeholder='Your message' name="message" />
+            {errors.message && <p className='error-message'  style={{ color: 'rgb(200 27 61)' }}>Message is required</p>}
             <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type='submit'>
               Send message
             </button>
+            {isSuccessMessageVisible && (
+              <p className='success-message' style={{ color: 'lightgoldenrodyellow' }}>
+                Your message has been sent successfully!
+              </p>
+            )}
           </form>
         </div>
       </div>
     </section>
   );
-};
+}; 
 
 export default Contact;
