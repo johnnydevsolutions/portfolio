@@ -20,10 +20,10 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/filmes4.png';
-import Project2 from './assets/img/projects/estoque1.png';
+import Project1 from './assets/img/projects/filme.png';
+import Project2 from './assets/img/projects/dice.png';
 import Project3 from './assets/img/projects/gamedbb.png';
-import Project4 from './assets/img/projects/portalnews.jpeg';
+import Project4 from './assets/img/projects/news.png';
 import Project5 from './assets/img/projects/guide.png';
 import Project6 from './assets/img/projects/vr.png';
 
@@ -120,43 +120,49 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'Movies Database',
-    category: 'UI/UX design',
-    description1: 'Aplication that allows users to search for movies, description, ratings, and add to a list. Click here.',
+    category: 'Angular',
+    moreInfoLink: 'https://buscador-filme.vercel.app/',
+    description1: 'Dive into a vast collection of films from various genres, eras, and countries. Check it out!',
   },
   {
     id: '2',
     image: Project2,
-    name: 'Merchandise System',
-    category: 'web development',
-    description2: 'Built an internal system of stores to register a product, input and modify products price and add more products. Click here.',
+    name: 'Dice Game',
+    category: 'JavaScript',
+    moreInfoLink: 'https://johnnydevsolutions.github.io/DiceGame/',
+    description2: 'Introducing "Roll It Out," a thrilling dice game that will keep you on the edge of your seat! Test your luck. Check it out!',
   },
   {
     id: '3',
     image: Project3,
     name: 'Games Database',
-    category: 'UI/UX design',
-    description3: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Click here.',
+    category: 'Angular',
+    moreInfoLink: 'https://game-3wihi3b6p-devj-andrade.vercel.app/',
+    description3: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Check it out!',
   },
   {
     id: '4',
     image: Project4,
     name: 'News Portal',
-    category: 'branding',
-    description4: 'Designed and developed a worldwide news headlines portal with the option to search or choose based on countries and categories. Click here.',
+    category: 'Angular',
+    moreInfoLink: 'https://portal-news.vercel.app/',
+    description4: 'Stay informed with "Portal News," your gateway to breaking news and insightful journalism. Explore a diverse range of topics. ',
   },
   {
     id: '5',
     image: Project5,
     name: 'Travel guide',
-    category: 'web development',
-    description5:'Travel guide project that allows users to read a blog with the most modern css effects and animations. This application with effects and animations makes the user experience much better.  Click here.',
+    category: 'React',
+    moreInfoLink: 'https://johnnydevsolutions.github.io/wanderlust-explorer/',
+    description5:'Embark on an unforgettable journey with "Wanderlust Explorer," your ultimate travel guide companion.',
   },
   {
     id: '6',
     image: Project6,
     name: 'VR experience',
-    category: 'web development',
-    description6: 'A landing page about metaverse VR technology, created with best practices, modern design, and fully immersive effects, will make users want VR products.  Click here.',
+    category: 'React',
+    moreInfoLink: 'https://vr-world-five.vercel.app/',
+    description6: 'Step into a new reality with "VRXperience," an immersive virtual reality adventure.',
   },
 ];
 
@@ -166,13 +172,13 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Angular',
   },
   {
-    name: 'web development',
+    name: 'React',
   },
   {
-    name: 'branding',
+    name: 'JavaScript',
   }, 
 ];
 
@@ -210,27 +216,27 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'With the latest design technology, we will provide the highest performance design for your business. .',
+      'With the latest design technology, I will provide the highest performance design for your business. .',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'We will develop your website with the latest technologies and best practices.',
+      'I will develop your website with the latest technologies and best practices.',
   },
   
   {
     icon: <FiPenTool />,
     name: 'Branding',
     description:
-      'We will create a brand that will be unique and memorable for your business.',
+      'I will create a brand that will be unique and memorable for your business.',
   }, 
 
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'We will optimize your website for search engines to get the best results.',
+      'I will optimize your website for search engines to get the best results.',
   },
 ];
 
