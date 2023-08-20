@@ -32,15 +32,21 @@ import SkillImg1 from './assets/img/skills/sqll.webp';
 import SkillImg2 from './assets/img/skills/dotnetcore.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/git.png';
+import SkillImg5 from './assets/img/skills/aws-certified-cloud-practitioner.png';
 import SkillImg6 from './assets/img/skills/docker.png';
 import SkillImg7 from './assets/img/skills/angular1.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg8 from './assets/img/skills/Azure-logo.png.webp';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+
+// certification images
+import AWSCertification from './assets/img/skills/aws-certified-cloud-practitioner.png'; // Import your AWS certification logo
+import AWSSaa from './assets/img/certifications/associate-architect.png';
+import AWSDevAssociate from './assets/img/certifications/developer-associate.png';
+import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
 
 // navigation
 export const navigation = [
@@ -129,7 +135,7 @@ export const projectsData = [
     image: Project2,
     name: 'Dice Game',
     category: 'JavaScript',
-    moreInfoLink: 'https://johnnydevsolutions.github.io/DiceGame/',
+    moreInfoLink: 'https://johnnydevsolutions.github.io/DiceGame/', // add link do vídeo do projeto de experiência
     description2: 'Introducing "Roll It Out," a thrilling dice game that will keep you on the edge of your seat! Test your luck. Check it out!',
   },
   {
@@ -145,8 +151,9 @@ export const projectsData = [
     image: Project4,
     name: 'News Portal',
     category: 'Angular',
-    moreInfoLink: 'https://portal-news.vercel.app/',
+    moreInfoLink: 'https://portal-news.vercel.app/', // add link do vídeo do projeto de experiência
     description4: 'Stay informed with "Portal News," your gateway to breaking news and insightful journalism. Explore a diverse range of topics. ',
+    //Detalhar no description sobre ter que pedir acesso no google cloud para poder ver o vídeo do projeto por ser projeto de empresa
   },
   {
     id: '5',
@@ -238,6 +245,31 @@ export const services = [
     description:
       'I will optimize your website for search engines to get the best results.',
   },
+];
+
+
+export const certifications = [
+  {
+    certiImage: AWSCertification,
+    certiTitle: 'Certified AWS Cloud Practitioner',
+    certiOrg: 'Amazon Web Services(AWS)',
+  },
+  {
+    certiImage: AWSSaa,
+    certiTitle: 'AWS Certified Solutions Architect - Associate - In progress',
+    certiOrg: 'Amazon Web Services(AWS)',
+  },
+  {
+    certiImage: AWSDevAssociate,
+    certiTitle: 'AWS Certified Developer - Associate - In Progress',
+    certiOrg: 'Amazon Web Services(AWS)',
+  },
+  /* {
+    certiImage: AZDevAssociate,
+    certiTitle: 'Studying for - Microsoft Certified: Azure Developer Associate',
+    certiOrg: 'Microsoft Azure',
+  }, */
+
 ];
 
 // testimonials

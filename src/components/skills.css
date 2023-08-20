@@ -1,0 +1,8 @@
+.zoom-on-hover {
+    transition: transform 0.3s; /* Adicione uma transição suave */
+  }
+  
+  .zoom-on-hover:hover {
+    transform: scale(1.3); /* Aumenta a escala para criar o efeito de zoom */
+    cursor: pointer;
+  }

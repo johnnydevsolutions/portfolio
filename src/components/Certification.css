@@ -1,0 +1,24 @@
+.before\:content-certifications::before {
+    content: "Certifications";
+    font-size: 1.5rem;
+}
+
+.certification-bg {
+    background-color: rgb(28 28 28);
+}
+
+.before\:content-certifications::before {
+    content: "Certifications";
+    position: relative;
+    opacity: 0.1;
+    top: 1rem;
+    /* top: 14px; */
+    left: -17px;
+    font-size: 240%;
+    color: transparent;
+    -webkit-text-stroke: 1px #FFF; 
+}
+
+.cert-subtitle{
+    color: #878E99
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './skills.css';
 
 // import skill data
 import { skills } from '../data';
@@ -16,7 +17,7 @@ const Skills = () => {
                 className='flex items-center justify-center'
                 key={index}
               >
-                <img className='lg:h-20' src={skill.image} alt='' />
+                <img className='lg:h-20 zoom-on-hover zoom-on-hover:hover' src={skill.image} alt='' />
               </div>
             );
           })}

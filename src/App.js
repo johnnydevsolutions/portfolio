@@ -1,4 +1,6 @@
 import React from 'react';
+import { FiMail, FiMapPin } from 'react-icons/fi'; // Import necessary icons
+import AWSLogo from './assets/img/skills/aws-certified-cloud-practitioner.png'; // Import your AWS certification logo
 
 // import components
 import Header from './components/Header';
@@ -12,6 +14,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
+import CertificationsSlider from './components/CertificationsSlider'; // Import the CertificationsSlider component
 
 const App = () => {
   return (
@@ -22,7 +25,8 @@ const App = () => {
       <About />
       <Skills />
       <Portfolio />
-      <Services />
+      {/* <Services /> */}
+      <CertificationsSlider />
      <Testimonials />
       <Contact />
       <Footer />
