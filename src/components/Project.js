@@ -1,4 +1,6 @@
 import React from 'react';
+import VideoComponent from './VideoComponent'; // Certifique-se de fornecer o caminho correto
+
 
 const Project = ({ item }) => {
   const openLink = (link) => {
@@ -15,6 +17,14 @@ const Project = ({ item }) => {
         /* onClick={() => openLink(item.moreInfoLink)} */
         /> {/* image */}
       </div>
+
+      {item.id === '1' || item.id === '2' ? (
+        <div className='mb-8'>
+          <VideoComponent src={item.videoSrc} />
+        </div>
+      ) : null}
+
+      
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
       <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3> 
 

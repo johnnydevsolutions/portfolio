@@ -20,8 +20,8 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/filme.png';
-import Project2 from './assets/img/projects/dice.png';
+/* import Project1 from './assets/img/projects/filme.png'; */
+import Project2 from './assets/img/projects/loveconnect_print.jpeg';
 import Project3 from './assets/img/projects/gamedbb.png';
 import Project4 from './assets/img/projects/news.png';
 import Project5 from './assets/img/projects/guide.png';
@@ -47,6 +47,10 @@ import AWSCertification from './assets/img/skills/aws-certified-cloud-practition
 import AWSSaa from './assets/img/certifications/associate-architect.png';
 import AWSDevAssociate from './assets/img/certifications/developer-associate.png';
 import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
+
+// import videos
+import Video1 from '../src/assets/videos/portfolio.mp4';
+import Video2 from '../src/assets/videos/portfolio.mp4';
 
 // navigation
 export const navigation = [
@@ -124,19 +128,21 @@ export const brands = [
 export const projectsData = [
   {
     id: '1',
-    image: Project1,
-    name: 'Movies Database',
-    category: 'Angular',
-    moreInfoLink: 'https://buscador-filme.vercel.app/',
-    description1: 'Dive into a vast collection of films from various genres, eras, and countries. Check it out!',
+    /* image: Project1, */
+    videoSrc: Video1,
+    name: 'Management Software',
+    category: 'Angular .NET Core',
+    moreInfoLink: '',
+    description1: 'A Full-Stack Application that involved creating a proposal management system for assigning tasks to responsible users within an company. The system facilitated the and distribution of proposals, streamlining the management processes within the organization.',
   },
   {
     id: '2',
-    image: Project2,
-    name: 'Dice Game',
-    category: 'JavaScript',
-    moreInfoLink: 'https://johnnydevsolutions.github.io/DiceGame/', // add link do vídeo do projeto de experiência
-    description2: 'Introducing "Roll It Out," a thrilling dice game that will keep you on the edge of your seat! Test your luck. Check it out!',
+    /* image: Project2, */
+    videoSrc: Video2,
+    name: 'Dating Website',
+    category: 'Angular .NET Core',
+    moreInfoLink: '', // add link do vídeo do projeto de experiência
+    description2: ' A full-stack project to create a dating website from scratch, featuring a messaging system, real-time user presence using SignalR, matching system, see who is online in real-time, upload photos, and build meaningful connections',
   },
   {
     id: '3',
@@ -276,8 +282,7 @@ export const certifications = [
 export const testimonials = [
   {
     authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorText:'Johnny is an exceptional software developer whose skills and dedication truly set him apart. From the moment he joins a project, his passion for coding shines through in every line he writes.',
     authorName: 'Jane Smith',
     authorPosition: 'Project Manager, Tech Corp',
   },
