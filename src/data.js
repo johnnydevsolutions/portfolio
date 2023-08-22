@@ -51,6 +51,7 @@ import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
 // import videos
 import Video1 from '../src/assets/videos/portfolio.mp4';
 import Video2 from '../src/assets/videos/portfolio.mp4';
+import video4 from '../src/assets/videos/johnny-weather-nasa.mp4';
 
 // navigation
 export const navigation = [
@@ -79,6 +80,26 @@ export const navigation = [
     href: 'contact',
   },
 ];
+
+/* const translations = {
+  en: {
+    home: 'Home',
+    about: 'About',
+    portfolio: 'Portfolio',
+    services: 'Services',
+    testimonials: 'Testimonials',
+    contact: 'Contact',
+  },
+  pt: {
+    home: 'Início',
+    about: 'Sobre',
+    portfolio: 'Portfólio',
+    services: 'Serviços',
+    testimonials: 'Depoimentos',
+    contact: 'Contato',
+  },
+};
+ */
 
 // social
 export const social = [
@@ -154,10 +175,11 @@ export const projectsData = [
   },
   {
     id: '4',
-    image: Project4,
-    name: 'News Portal',
-    category: 'Angular',
-    moreInfoLink: 'https://portal-news.vercel.app/', // add link do vídeo do projeto de experiência
+    /* image: Project4, */
+    videoSrc: video4,
+    name: 'Extreme weather events',
+    category: 'React',
+    moreInfoLink: '', // add link do vídeo do projeto de experiência
     description4: 'Stay informed with "Portal News," your gateway to breaking news and insightful journalism. Explore a diverse range of topics. ',
     //Detalhar no description sobre ter que pedir acesso no google cloud para poder ver o vídeo do projeto por ser projeto de empresa
   },
