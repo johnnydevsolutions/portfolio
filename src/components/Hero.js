@@ -3,6 +3,16 @@ import React from 'react';
 // import woman image
 import me from '../assets/img/coverofc.png';
 
+import { Link } from 'react-scroll';
+import { BriefcaseIcon } from '@heroicons/react/outline';
+import { HandIcon } from '@heroicons/react/solid';
+import { UsersIcon } from '@heroicons/react/solid';
+import { PencilAltIcon } from '@heroicons/react/solid';
+
+
+
+
+
 const Hero = () => {
   return (
     <section
@@ -16,14 +26,23 @@ const Hero = () => {
               Hey, I'm Johnny! 👋
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-              I Build & Design <br /> Web Interfaces.
+              I Build & Design <br /> Web Application.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              I'm a professional web developer with a passion for building web interfaces. I can build solutions for your business.
+            As a certified AWS Cloud Practitioner and a proficient full-stack developer skilled in Angular and .Net Core, 
+            I can help your team achieve great accomplishments in complex solutions,
+            enhancing your capabilities and driving meaningful improvements.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
-            </button>
+            
+            <a 
+            
+            href="mailto:johnnydev.solutions@gmail.com?subject=Let's work together, invitation to interview.&body=Write your message here"
+            className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all cursor-pointer flex items-center'
+            >
+              <UsersIcon   className='w-5 h-5 mr-2' />
+            Work with me
+            </a>
+            
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-auto '>
            <img src={me} alt='' />
