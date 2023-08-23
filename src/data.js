@@ -134,7 +134,7 @@ export const projectsData = [
     name: 'Management Software',
     category: 'Angular .NET Core',
     moreInfoLink: '', 
-    description2: 'A Full-Stack Application that involved creating a proposal management system for assigning tasks to responsible users within an company. The system facilitated the and distribution of proposals, streamlining the management processes within the organization.',
+    description2: 'A comprehensive Full-Stack Application was developed for creating a proposal management system, assigning tasks to responsible users within a company, and facilitating the distribution of proposals to streamline essential organizational processes.',
   },
   {
     id: '2',
