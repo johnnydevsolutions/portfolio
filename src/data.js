@@ -50,8 +50,8 @@ import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
 
 // import videos
 import Video1 from '../src/assets/videos/portfolio.mp4';
-import Video2 from '../src/assets/videos/portfolio.mp4';
-import video4 from '../src/assets/videos/johnny-weather-nasa.mp4';
+import Video2 from '../src/assets/videos/love-connect.mp4';
+import video3 from '../src/assets/videos/johnny-weather-nasa.mp4';
 
 // navigation
 export const navigation = [
@@ -80,26 +80,6 @@ export const navigation = [
     href: 'contact',
   },
 ];
-
-/* const translations = {
-  en: {
-    home: 'Home',
-    about: 'About',
-    portfolio: 'Portfolio',
-    services: 'Services',
-    testimonials: 'Testimonials',
-    contact: 'Contact',
-  },
-  pt: {
-    home: 'Início',
-    about: 'Sobre',
-    portfolio: 'Portfólio',
-    services: 'Serviços',
-    testimonials: 'Depoimentos',
-    contact: 'Contato',
-  },
-};
- */
 
 // social
 export const social = [
@@ -149,38 +129,38 @@ export const brands = [
 export const projectsData = [
   {
     id: '1',
-    /* image: Project1, */
+    /* image: Project2, */
     videoSrc: Video1,
     name: 'Management Software',
     category: 'Angular .NET Core',
-    moreInfoLink: '',
-    description1: 'A Full-Stack Application that involved creating a proposal management system for assigning tasks to responsible users within an company. The system facilitated the and distribution of proposals, streamlining the management processes within the organization.',
+    moreInfoLink: '', 
+    description2: 'A Full-Stack Application that involved creating a proposal management system for assigning tasks to responsible users within an company. The system facilitated the and distribution of proposals, streamlining the management processes within the organization.',
   },
   {
     id: '2',
-    /* image: Project2, */
+    /* image: Project1, */
     videoSrc: Video2,
     name: 'Dating Website',
     category: 'Angular .NET Core',
-    moreInfoLink: '', // add link do vídeo do projeto de experiência
-    description2: ' A full-stack project to create a dating website from scratch, featuring a messaging system, real-time user presence using SignalR, matching system, see who is online in real-time, upload photos, and build meaningful connections',
+    moreInfoLink: '',
+    description1: 'A full-stack project to create a dating website from scratch, featuring a messaging system, real-time user presence using SignalR, matching system, see who is online in real-time, upload photos, and build meaningful connections',
   },
   {
     id: '3',
-    image: Project3,
-    name: 'Games Database',
-    category: 'Angular',
-    moreInfoLink: 'https://game-3wihi3b6p-devj-andrade.vercel.app/',
-    description3: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Check it out!',
+    // image: Project3,
+    videoSrc: video3,
+    name: 'Extreme weather events',
+    category: 'React',
+    moreInfoLink: '',
+    description3: ' Earth Extreme Events Visualization, provides a captivating exploration of natural phenomena such as volcanoes, storms, wildfires, and icebergs. This innovative application offers a captivating avenue for discovery.',
   },
   {
     id: '4',
-    /* image: Project4, */
-    videoSrc: video4,
-    name: 'Extreme weather events',
+    image: Project3,
+    name: 'Game Database',
     category: 'React',
-    moreInfoLink: '', // add link do vídeo do projeto de experiência
-    description4: 'Stay informed with "Portal News," your gateway to breaking news and insightful journalism. Explore a diverse range of topics. ',
+    moreInfoLink: 'https://game-3wihi3b6p-devj-andrade.vercel.app/', // add link do vídeo do projeto de experiência
+    description4: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Check it out! ',
     //Detalhar no description sobre ter que pedir acesso no google cloud para poder ver o vídeo do projeto por ser projeto de empresa
   },
   {
@@ -207,7 +187,7 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'Angular',
+    name: 'Angular .NET Core',
   },
   {
     name: 'React',

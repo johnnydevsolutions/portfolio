@@ -18,8 +18,8 @@ const Project = ({ item }) => {
         /> {/* image */}
       </div>
 
-      {item.id === '1' || item.id === '2' || item.id === '4' ? (
-        <div className='mb-8'>
+      {item.id === '1' || item.id === '2' || item.id === '3' ? (
+        <div className='mb-0'>
           <VideoComponent src={item.videoSrc} />
         </div>
       ) : null}
