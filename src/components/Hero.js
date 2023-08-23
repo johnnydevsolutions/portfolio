@@ -1,16 +1,13 @@
 import React from 'react';
 
 // import woman image
-import me from '../assets/img/coverofc.png';
+import me from '../assets/img/Profileimg.jpg';
 
 import { Link } from 'react-scroll';
 import { BriefcaseIcon } from '@heroicons/react/outline';
 import { HandIcon } from '@heroicons/react/solid';
 import { UsersIcon } from '@heroicons/react/solid';
 import { PencilAltIcon } from '@heroicons/react/solid';
-
-
-
 
 
 const Hero = () => {
@@ -36,7 +33,7 @@ const Hero = () => {
             
             <a 
             
-            href="mailto:johnnydev.solutions@gmail.com?subject=Let's work together, invitation to interview.&body=Write your message here"
+            href="mailto:johnnydev.solutions@gmail.com?subject=Let's Work Together: Interview Invitation.&body=Write your message here"
             className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all cursor-pointer flex items-center'
             >
               <UsersIcon   className='w-5 h-5 mr-2' />
