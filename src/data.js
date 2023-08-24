@@ -54,7 +54,7 @@ import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
 // import videos
 import Video1 from '../src/assets/videos/portfolio.mp4';
 import Video2 from '../src/assets/videos/love-connect.mp4';
-import video3 from '../src/assets/videos/extreme-weather.mp4';
+import Video3 from '../src/assets/videos/extreme-weather.mp4';
 
 // navigation
 export const navigation = [
@@ -151,7 +151,7 @@ export const projectsData = [
   {
     id: '3',
     // image: Project3,
-    videoSrc: video3,
+    videoSrc: Video3,
     name: 'Extreme weather events',
     category: 'React',
     moreInfoLink: '',
