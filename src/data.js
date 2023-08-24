@@ -10,7 +10,10 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from 'react-icons/fi';
+
+import { FaWhatsapp, FaEnvelope  } from 'react-icons/fa'; 
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -51,7 +54,7 @@ import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
 // import videos
 import Video1 from '../src/assets/videos/portfolio.mp4';
 import Video2 from '../src/assets/videos/love-connect.mp4';
-import video3 from '../src/assets/videos/johnny-weather-nasa.mp4';
+import video3 from '../src/assets/videos/extreme-weather.mp4';
 
 // navigation
 export const navigation = [
@@ -84,20 +87,20 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FaWhatsapp  />,
+    href: 'https://api.whatsapp.com/send?phone=5521974477493&text=Hi%20Johnny!%20I%20would%20like%20to%20talk%20to%20you%20about%20a%20project.',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/johnnyassuncao/',
   },
   {
     icon: <FiGithub />,
     href: 'https://github.com/johnnydevsolutions',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FaEnvelope />,
+    href: 'mailto:johnnydev.solutions@gmail.com?subject=Lets Work Together: Interview Invitation.&body=Write your message here',
   },
 ];
 
@@ -293,7 +296,7 @@ export const testimonials = [
     authorText:
       'The quality of work and attention to detail provided by Johnny is exceptional. They consistently deliver beyond our expectations.',
     authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorPosition: 'Head of Design, InnoTech Solutions',
   },
   {
     authorImg: TestiImage3,
