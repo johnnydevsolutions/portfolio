@@ -299,7 +299,7 @@ export const testimonials = [
     authorText:
       'The quality of work and attention to detail provided by Johnny is exceptional. They consistently deliver beyond our expectations.',
     authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, InnoTech Solutions',
+    authorPosition: 'Tech Lead, InnoTech Solutions',
   },
   {
     authorImg: TestiImage3,
