@@ -137,6 +137,7 @@ export const projectsData = [
     name: 'Management Software',
     category: 'Angular .NET Core',
     moreInfoLink: '', 
+    private: true,
     description2: 'A comprehensive Full-Stack Application was developed for creating a proposal management system, assigning tasks to responsible users within a company, and facilitating the distribution of proposals to streamline essential organizational processes.',
   },
   {
@@ -146,6 +147,7 @@ export const projectsData = [
     name: 'Dating Website',
     category: 'Angular .NET Core',
     moreInfoLink: '',
+    private: true,
     description1: 'A full-stack project to create a dating website from scratch, featuring a messaging system, real-time user presence using SignalR, matching system, see who is online in real-time, upload photos, and build meaningful connections',
   },
   {
@@ -155,6 +157,7 @@ export const projectsData = [
     name: 'Extreme weather events',
     category: 'React',
     moreInfoLink: '',
+    private: true,
     description3: ' Earth Extreme Events Visualization, provides a captivating exploration of natural phenomena such as volcanoes, storms, wildfires, and icebergs. This innovative application offers a captivating avenue for discovery.',
   },
   {

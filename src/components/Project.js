@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import VideoComponent from './VideoComponent'; // Certifique-se de fornecer o caminho correto
+
 
 
 const Project = ({ item }) => {
@@ -66,13 +67,22 @@ const Project = ({ item }) => {
       
       
       <button
-        type='button'
-        className='text-white bg-amber-600 hover:bg-yellow-500 focus:outline-none 
+      type='button'
+      className='text-white bg-amber-600 hover:bg-yellow-500 focus:outline-none 
         focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900 mt-auto'
-        onClick={() => openLink(item.moreInfoLink)}
-      >
-        More info
-      </button>
+      onClick={() => {
+        if (item.private) {
+         alert('This project is temporarily private. Please watch the video to check it out.'); 
+          // openLink(item.videoSrc);
+         
+        } else {
+          openLink(item.moreInfoLink);
+        }
+      }}
+>
+  {item.private ? 'Watch Video' : 'More info'}
+</button>
+
     </div>
   );
 };

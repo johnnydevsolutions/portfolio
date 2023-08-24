@@ -4,7 +4,6 @@ import React, { useState }  from 'react';
 import { contact } from '../data';
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
-import Modal from 'react-modal';
 
 
 const Contact = () => {
@@ -14,7 +13,7 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     emailjs
-      .sendForm('service_5d0pbp4', 'template_cqvij7q', e.target, 'imzIzAFAbL_JdyfLs')
+      .sendForm('service_5d0pbp4', 'template_p65k7e8', e.target, 'imzIzAFAbL_JdyfLs')
       .then((response) => {
         setIsSuccessMessageVisible(true);
         console.log('E-mail enviado com sucesso!', response.text);
@@ -26,6 +25,7 @@ const Contact = () => {
   };
 
 
+
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
@@ -34,7 +34,7 @@ const Contact = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-            Looking for a creative and knowledgeable Web developer? <br /> Search no further, because I am ready for the job. <br />
+            Looking for a creative and knowledgeable Full stack engineer? <br /> Search no further, because I am ready for the job. <br />
             I will step in and make an immediate contribution to your project.
           </p>
         </div>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <form className='space-y-8 w-full max-w-[780px]' onSubmit={handleSubmit(onSubmit)}>
             <div className='flex gap-8'>
-              <input className='input' type='text' name="user_name" {...register('name', { required: true })} placeholder='Your name' />
+              <input className='input' type='text' name="user_name" {...register('name', { required: true })} autoComplete="off" placeholder='Your name' />
               {errors.name && <p className='error-message' style={{ color: 'rgb(200 27 61)' }}>Name is required</p>}
               <input className='input' type='email' name="user_email" {...register('email', { required: true })} placeholder='Your email' />
               {errors.email && <p className='error-message' style={{ color: 'rgb(200 27 61)' }}>Email is required</p>}
