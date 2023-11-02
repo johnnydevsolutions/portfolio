@@ -26,9 +26,8 @@ const Hero = () => {
               I Build & Design <br /> Web Application.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-            As a certified AWS Cloud Practitioner and a proficient full-stack developer skilled in Angular and .Net Core, 
-            I can help your team achieve great accomplishments in complex solutions,
-            enhancing your capabilities and driving meaningful improvements.
+            With 3+ years of experience in Angular and .NET Core, I'm dedicated to crafting robust web applications. 
+            I'm also proficient in Azure DevOps, focusing on creating solutions for enterprises. Committed to continuous growth and making a meaningful impact on companies' success.
             </p>
             
             <a 

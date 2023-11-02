@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import img
-import Image from '../assets/img/profile1.jpg';
+import Image from '../assets/img/Profileimg.jpg';
 
 import { Link } from 'react-scroll';
 import { BriefcaseIcon } from '@heroicons/react/outline';
@@ -29,13 +29,12 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-              With over 2 years as a full-stack engineer, I've honed my skills in Angular, React.js, .NET Core, TypeScript, and SQL Server. 
-              As an AWS Certified Cloud Practitioner, I demonstrate a strong understanding of cloud principles, with a focus on AWS environments. 
-              I am currently in the process of pursuing certifications as an AWS Solutions Architect Associate and AWS Developer Associate,
-              further underscoring my commitment to advancing my cloud expertise. Beyond my certifications, my practical experience with Azure adds another layer of cloud
-              knowledge to my toolkit. Leveraging these skills, 
-              I aspire to drive impactful results and elevate your team's capabilities in delivering impactful solutions across various technological domains.
-                  <br />
+              Accomplished Software Developer with over 3 years of industry experience, specializing in developing 
+              systems for enterprise-level companies. I have had the privilege of collaborating with a diverse range of 
+              prominent clients, allowing me to bring a unique blend of technical expertise, innovation, and business 
+              acumen to the table. Furthermore, I am always seeking continuous development to contribute to the 
+              company's success
+                 {/*  <br /> */}
                 <br />
             
               </p>
