@@ -80,7 +80,7 @@ const Project = ({ item }) => {
         }
       }}
 >
-  {item.private ? 'Watch Video' : 'More info'}
+  {item.private ? 'Coming Up' : 'Explore now'}
 </button>
 
     </div>

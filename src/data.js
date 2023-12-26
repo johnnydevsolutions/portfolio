@@ -52,9 +52,10 @@ import AWSDevAssociate from './assets/img/certifications/developer-associate.png
 import AZDevAssociate from './assets/img/certifications/az-dev-associate.png';
 
 // import videos
-import Video1 from '../src/assets/videos/portfolio.mp4';
+import Video1 from '../src/assets/videos/metrics-report.mp4';
 import Video2 from '../src/assets/videos/love-connect.mp4';
 import Video3 from '../src/assets/videos/extreme-weather.mp4';
+import Video4 from '../src/assets/videos/gestao.mp4';
 
 // navigation
 export const navigation = [
@@ -134,11 +135,11 @@ export const projectsData = [
     id: '1',
     /* image: Project2, */
     videoSrc: Video1,
-    name: 'Management Software',
+    name: 'Metrics Report',
     category: 'Angular .NET Core',
     moreInfoLink: '', 
     private: true,
-    description2: 'A comprehensive Full-Stack Application was developed for creating a proposal management system, assigning tasks to responsible users within a company, and facilitating the distribution of proposals to streamline essential organizational processes.',
+    description2: 'The "Metrics Report System" is a sophisticated project designed to streamline project management, contractor engagement, and financial tracking. This comprehensive system allows seamless contractor contracting, linking their activities to detailed measurement reports.',
   },
   {
     id: '2',
@@ -161,13 +162,14 @@ export const projectsData = [
     description3: ' Earth Extreme Events Visualization, provides a captivating exploration of natural phenomena such as volcanoes, storms, wildfires, and icebergs. This innovative application offers a captivating avenue for discovery.',
   },
   {
-    id: '4',
-    image: Project3,
-    name: 'Game Database',
-    category: 'React',
-    moreInfoLink: 'https://game-3wihi3b6p-devj-andrade.vercel.app/', // add link do vídeo do projeto de experiência
-    description4: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Check it out! ',
-    //Detalhar no description sobre ter que pedir acesso no google cloud para poder ver o vídeo do projeto por ser projeto de empresa
+    id: '1',
+    /* image: Project2, */
+    videoSrc: Video4,
+    name: 'Management Software',
+    category: 'Angular .NET Core',
+    moreInfoLink: '', 
+    private: true,
+    description2: 'A comprehensive Full-Stack Application was developed for creating a proposal management system, assigning tasks to responsible users within a company, and facilitating the distribution of proposals to streamline essential organizational processes.',
   },
   {
     id: '5',
@@ -180,10 +182,10 @@ export const projectsData = [
   {
     id: '6',
     image: Project6,
-    name: 'VR experience',
+    name: 'Game Database',
     category: 'React',
-    moreInfoLink: 'https://vr-world-five.vercel.app/',
-    description6: 'Step into a new reality with "VRXperience," an immersive virtual reality adventure.',
+    moreInfoLink: 'https://game-3wihi3b6p-devj-andrade.vercel.app/',
+    description6: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Check it out!',
   },
 ];
 
