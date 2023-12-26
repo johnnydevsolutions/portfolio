@@ -27,8 +27,8 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 import Project2 from './assets/img/projects/loveconnect_print.jpeg';
 import Project3 from './assets/img/projects/gamedbb.png';
 import Project4 from './assets/img/projects/news.png';
-import Project5 from './assets/img/projects/guide.png';
-import Project6 from './assets/img/projects/vr.png';
+import Project5 from './assets/img/projects/places.jpg';
+import Project6 from './assets/img/projects/game.jpg';
 
 // skills images
 import SkillImg1 from './assets/img/skills/sqll.webp';
@@ -177,15 +177,15 @@ export const projectsData = [
     name: 'Travel guide',
     category: 'React',
     moreInfoLink: 'https://johnnydevsolutions.github.io/wanderlust-explorer/',
-    description5:'Embark on an unforgettable journey with "Wanderlust Explorer," your ultimate travel guide companion.',
+    description5:'Your Ultimate Travel Companion: Embark on an unforgettable journey with "Wanderlust Explorer," an innovative travel guide that transcends traditional exploration. Begin your odyssey now and redefine the way you experience the world. ',
   },
   {
     id: '6',
     image: Project6,
     name: 'Game Database',
-    category: 'React',
+    category: 'Angular .NET Core',
     moreInfoLink: 'https://game-3wihi3b6p-devj-andrade.vercel.app/',
-    description6: 'Aplication that allows users to search for games, description, ratings, and add them to a list. Check it out!',
+    description6: 'This dynamic platform provides an immersive gateway into the expansive universe of games. Explore a vast library, delving into comprehensive game descriptions, checking ratings, and crafting a personalized gaming list to your unique preferences.',
   },
 ];
 
