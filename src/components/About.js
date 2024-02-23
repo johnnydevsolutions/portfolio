@@ -29,7 +29,7 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-              Accomplished Software Developer with over 2 years of industry experience, specializing in developing 
+              Accomplished Software Developer with over 3 years of industry experience, specializing in developing 
               systems for enterprise-level companies. I have had the privilege of collaborating with a diverse range of 
               prominent clients, allowing me to bring a unique blend of technical expertise, innovation, and business 
               acumen to the table. Furthermore, I am always seeking continuous development to contribute to the 
