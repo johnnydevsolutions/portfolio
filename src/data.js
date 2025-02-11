@@ -163,7 +163,7 @@ export const projectsData = [
     description3: ' Earth Extreme Events Visualization, provides a captivating exploration of natural phenomena such as volcanoes, storms, wildfires, and icebergs. This innovative application offers a captivating avenue for discovery.',
   },
   {
-    id: '1',
+    id: '4',
     /* image: Project2, */
     videoSrc: Video4,
     name: 'Management Software',
@@ -173,7 +173,7 @@ export const projectsData = [
     description2: 'A comprehensive Full-Stack Application was developed for creating a proposal management system, assigning tasks to responsible users within a company, and facilitating the distribution of proposals to streamline essential organizational processes.',
   },
   {
-    id: '1',
+    id: '5',
     videoSrc: Video5,
     name: 'Weather Forecast',
     category: 'Vue.js .NET Core',
