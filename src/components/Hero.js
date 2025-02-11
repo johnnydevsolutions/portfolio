@@ -26,8 +26,7 @@ const Hero = () => {
               I Build & Design <br /> Web Application.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-            With 2 years of experience in Angular and .NET Core, I'm dedicated to crafting robust web applications. 
-            I'm also proficient in Azure DevOps, focusing on creating solutions for enterprises. Committed to continuous growth and making a meaningful impact on companies' success.
+              With 3 years of experience in Angular and .NET Core, I specialize in crafting robust web applications. I'm also skilled in Azure DevOps, building enterprise solutions. Passionate about continuous growth and delivering meaningful impact.
             </p>
             
             <a 

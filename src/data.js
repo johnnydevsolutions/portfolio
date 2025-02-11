@@ -56,6 +56,7 @@ import Video1 from '../src/assets/videos/metrics-report.mp4';
 import Video2 from '../src/assets/videos/love-connect.mp4';
 import Video3 from '../src/assets/videos/extreme-weather.mp4';
 import Video4 from '../src/assets/videos/gestao.mp4';
+import Video5 from '../src/assets/videos/weather-forecast.mp4';
 
 // navigation
 export const navigation = [
@@ -172,12 +173,13 @@ export const projectsData = [
     description2: 'A comprehensive Full-Stack Application was developed for creating a proposal management system, assigning tasks to responsible users within a company, and facilitating the distribution of proposals to streamline essential organizational processes.',
   },
   {
-    id: '5',
-    image: Project5,
-    name: 'Travel guide',
-    category: 'React',
-    moreInfoLink: 'https://johnnydevsolutions.github.io/wanderlust-explorer/',
-    description5:'Your Ultimate Travel Companion: Embark on an unforgettable journey with "Wanderlust Explorer," an innovative travel guide that transcends traditional exploration. Begin your odyssey now and redefine the way you experience the world. ',
+    id: '1',
+    videoSrc: Video5,
+    name: 'Weather Forecast',
+    category: 'Vue.js .NET Core',
+    moreInfoLink: '', 
+    private: true,
+    description5:'A modern and responsive weather forecast application displaying real-time climate data with dynamic icons, filters and temperature indicators. The back-end is built with .NET, Clean Architecture, and Hangfire for automatic updates.',
   },
   {
     id: '6',
@@ -292,10 +294,10 @@ export const certifications = [
 export const testimonials = [
   {
     authorImg: TestiImage1,
-    authorText:'Johnny is an exceptional software developer whose skills and dedication truly set him apart. From the moment he joins a project, his passion for coding shines through in every line he writes.',
-    authorName: 'Jane Smith',
-    authorPosition: 'Project Manager, Tech Corp',
-  },
+    authorText:'Johnny has been a great colleague from the start. We have worked on several projects together, learning and sharing knowledge. He is always been supportive and ready to help when needed.',
+    authorName: 'Natália Spindola',
+    authorPosition: 'FullStack Developer, Loja Interativa',
+  }/* ,
   {
     authorImg: TestiImage2,
     authorText:
@@ -309,7 +311,7 @@ export const testimonials = [
       'I have had the pleasure of working with Johnny on multiple projects. His technical expertise and professionalism are unmatched.',
     authorName: 'Isabella Thompson',
     authorPosition: 'Software Engineer, CodeTech',
-  },
+  }, */
 ];
 
 // contact

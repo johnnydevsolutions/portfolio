@@ -27,13 +27,11 @@ const About = () => {
               <p className='mb-4 text-accent'>
                 Full Stack Angular .NET Core developer. <br></br> AWS Certified Cloud Practitioner!
               </p>
-              <hr className='mb-8 opacity-5' />
+              <hr className='mb-4 opacity-5' />
               <p className='mb-8'>
-              Accomplished Software Developer with over 2 years of industry experience, specializing in developing 
-              systems for enterprise-level companies. I have had the privilege of collaborating with a diverse range of 
-              prominent clients, allowing me to bring a unique blend of technical expertise, innovation, and business 
-              acumen to the table. Furthermore, I am always seeking continuous development to contribute to the 
-              company's success
+              Accomplished Software Developer with over 3 years of industry experience, specializing in building enterprise-level systems.
+              I bring a unique combination of technical expertise, innovation, and business acumen to drive impactful solutions.  
+              Passionate about continuous learning and always eager to contribute to a company's success.
                  {/*  <br /> */}
                 <br />
             
